@@ -1,0 +1,130 @@
+.header {
+    padding-top: 27px;
+    padding-bottom: 90px;
+}
+
+.header__logo {
+    grid-area: logo;
+}
+
+.header__btn-hamb {
+    font-size: 22px;
+    color: #fff;
+    line-height: 150%;
+    background-color: #3670C7;
+    border-radius: 10px;
+    padding: 9px 28px 12px 61px;
+    position: relative;
+    max-width: 151px;
+    grid-area: button;
+}
+
+.header__btn-hamb::before {
+    content: '';
+    position: absolute;
+    background: #fff;
+    vertical-align: middle;
+    width: 18px;
+    height: 12px;
+    top: 20px;
+    left: 33px;
+    background: url('/icons/Burger.svg');
+    transition: all .4s linear;
+}
+
+
+.header__btn-hamb:active:after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    vertical-align: middle;
+    width: 18px;
+    height: 12px;
+    top: 20px;
+    left: 33px;
+    background: url('/icons/Close.svg');
+    transition: all .4s linear;
+}
+
+.header__wrapper {
+    grid-area: search;
+}
+
+.header__search {
+    position: relative;
+    display: inline-block;
+}
+
+.header__input-search {
+    padding: 15px 504px 18px 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #8F8F8F;
+    line-height: 130%;
+    background-color: #EFEFEF;
+    border-radius: 30px;
+    border: none;
+}
+
+.header__btn-search {
+    padding: 27px 50px 27px 51px;
+    background-color: #3670C7;
+    background-image: url('/icons/search.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.header__btn-text {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2D2D2D;
+}
+
+.header__list {
+    display: grid;
+    grid-template-columns: 77px 72px 93px;
+    gap: 70px;
+    grid-area: icons;
+    grid-template-areas: "login cart fav";
+}
+
+.header__item {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.header__img-item {
+    margin-bottom: 4px;
+}
+
+.login {
+    grid-area: login;
+}
+
+.cart {
+    grid-area: cart;
+}
+
+.favotite {
+    grid-area: fav;
+}
+
+.header__btn-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__container {
+    display: grid;
+    grid-template-columns: 190px 123px 151px 99px 757px 83px 382px;
+    align-items: center;
+    justify-items: stretch;
+    grid-template-areas:
+    "logo . button . search . icons";
+    min-height: 61px;
+}

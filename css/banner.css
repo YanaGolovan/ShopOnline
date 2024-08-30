@@ -1,0 +1,15 @@
+.banner__title {
+    background-image: url('/image/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    padding-top:  145px;
+    padding-bottom: 244px;
+    padding-left: 112px;
+    width: 100%;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 130%;
+    border-radius: 20px;
+}

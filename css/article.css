@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Droid Serif";
+    src: local("Droid Serif"), local("Droid-Serif-Regular"), url('/fonts/DroidSerif.woff2') format('woff2'),
+    url('/fonts/DroidSerif.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Droid Serif";
+    src: local("Droid Serif Bold"), local("Droid-Serif-Bold"), url('/fonts/DroidSerif-Bold.woff2') format('woff2'),
+    url('/fonts/DroidSerif-Bold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: "Droid Serif", "Times", serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #2D2D2D;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1830px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.article {
+    padding: 80px 0;
+}
+
+.article__title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    padding: 0;
+    margin: 0 0 40px;
+}
+
+.article__content {
+    margin: 0 0 160px;
+}
+
+.article__text {
+    line-height: 150%;
+    margin: 0 0 20px;
+}
+.article__text:last-child {
+    margin-bottom: 0;
+}
+
+.article__author {
+    line-height: 150%;
+    color: #000000;
+    margin: 0;
+    display: inline-block;
+    float: right;
+}
+
+.article__quote {
+    font-style: normal;
+}
+
+.article__back {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #2D2D2D;
+    text-decoration: none;    
+}
+
+.article__back::before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-image: url('../icons/arrow.svg');
+    vertical-align: middle;
+    margin-right: 10px;    
+}
