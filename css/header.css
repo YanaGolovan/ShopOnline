@@ -69,7 +69,7 @@
 .header__btn-search {
     padding: 27px 50px 27px 51px;
     background-color: #3670C7;
-    background-image: url('/icons/search.svg');
+    background-image: url('../icons/search.svg');
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 30px;
