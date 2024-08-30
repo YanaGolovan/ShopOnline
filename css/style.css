@@ -1,7 +1,7 @@
-@import "/css/normalize.css";
-@import "/css/global.css";
-@import "/css/header.css";
-@import "/css/banner.css";
+@import "../css/normalize.css";
+@import "../css/global.css";
+@import "../css/header.css";
+@import "../css/banner.css";
 
 @font-face {
     font-family: "Lato";
