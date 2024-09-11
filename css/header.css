@@ -1,10 +1,11 @@
 .header {
     padding-top: 27px;
-    padding-bottom: 90px;
+    padding-bottom: 45px;
 }
 
 .header__logo {
     grid-area: logo;
+    padding-top: 13px;
 }
 
 .header__btn-hamb {
@@ -86,7 +87,7 @@
 
 .header__list {
     display: grid;
-    grid-template-columns: 77px 72px 93px;
+    grid-template-columns: 69px 63px 82px;
     gap: 70px;
     grid-area: icons;
     grid-template-areas: "login cart fav";
@@ -121,7 +122,7 @@
 
 .header__container {
     display: grid;
-    grid-template-columns: 190px 123px 151px 99px 757px 83px 382px;
+    grid-template-columns: 190px 121px 151px 99px 754px 97px 382px;
     align-items: center;
     justify-items: stretch;
     grid-template-areas:

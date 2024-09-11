@@ -2,6 +2,7 @@
 @import "../css/global.css";
 @import "../css/header.css";
 @import "../css/banner.css";
+@import "../css/promo.css";
 
 @font-face {
     font-family: "Lato";
@@ -40,4 +41,6 @@ body {
     max-width: 1830px;
     margin: 0 auto;
     padding: 0 30px;
+    position: relative;
 }
+
