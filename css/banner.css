@@ -139,3 +139,41 @@
         margin-right: 10px;
     }
 }
+
+@media (max-width: 480px) {
+    .banner {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .banner__title {
+        font-size: 22px;
+        padding-top:  50px; 
+        padding-left: 29px;
+        padding-bottom: 0;
+        margin-bottom: 189px;
+    }
+
+    .banner__timer-title {
+        font-size: 8px;
+        margin-bottom: 6px;
+    }
+
+    .banner__timer-count {
+        font-size: 20px;
+        margin-right: 2px;
+    }
+    
+    .banner__timer-text {
+        font-size: 12px;
+        margin-right: 8px;
+    }
+
+    .banner__main-image {
+        border-radius: 8px;
+    }
+
+    .banner__timer-wrapper {
+        align-items: center;
+    }
+}
