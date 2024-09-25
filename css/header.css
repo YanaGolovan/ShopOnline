@@ -130,6 +130,25 @@
     min-height: 61px;
 }
 
+@media (max-width: 1370px) {
+    .header__container {
+    grid-template-columns: 
+    240px minmax(280px, 700px);
+    grid-template-rows: 61px 54px;
+    align-items: center;
+    justify-items: stretch;
+    justify-content: space-between;
+    grid-template-areas:
+    "logo icons"
+    "button search"; 
+    row-gap: 34px;
+    }
+
+    .header__list {
+        justify-content: end;
+    }
+}
+
 @media (max-width: 1024px) {
 .header {
     padding-top: 34px;
@@ -137,7 +156,6 @@
 }
     
 .header__container {
-    display: grid;
     grid-template-columns: 
     240px minmax(280px, 700px);
     grid-template-rows: 61px 54px;
