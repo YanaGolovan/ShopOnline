@@ -29,7 +29,7 @@
     height: 12px;
     top: 20px;
     left: 33px;
-    background: url('/icons/Burger.svg');
+    background: url('../icons/Burger.svg');
     transition: all .4s linear;
 }
 
