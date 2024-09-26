@@ -312,6 +312,9 @@
         gap: 24px;
     }
 
+    .promo__box::after {
+        border-radius: 16px;
+    }
 
 .promo__box:nth-child(3) {
     grid-column: 1/span 2;
@@ -352,7 +355,6 @@
     grid-column: 4/5;
     grid-row: 4/5;
 }
-
 
 .promo__text-four {
     font-size: 30px;
@@ -544,6 +546,10 @@
 
     .promo__box::after {
         border-radius: 12px;
+    }
+
+    .promo__item-ten::after {
+        border-radius: 16px;
     }
 
     .promo__image:nth-child(10) {
