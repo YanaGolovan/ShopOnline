@@ -22,7 +22,7 @@
 }
 
 .banner__title {
-    color: #fff;
+    color: var(--color-white);
     font-size: 70px;
     font-weight: 700;
     line-height: 130%;
@@ -32,7 +32,7 @@
 }
 
 .banner__timer {
-    color: #fff;
+    color: var(--color-white);
     text-align: center;
     padding-bottom: 40px;
 }

@@ -10,9 +10,9 @@
 
 .header__btn-hamb {
     font-size: 22px;
-    color: #fff;
+    color: var(--color-white);
     line-height: 150%;
-    background-color: #3670C7;
+    background-color: var(--color-bg-button);
     border-radius: 10px;
     padding: 9px 28px 12px 61px;
     position: relative;
@@ -23,7 +23,7 @@
 .header__btn-hamb::before {
     content: '';
     position: absolute;
-    background: #fff;
+    background: var(--color-white);
     vertical-align: middle;
     width: 18px;
     height: 12px;
@@ -37,7 +37,7 @@
 .header__btn-hamb:active:after {
     content: '';
     position: absolute;
-    background: #fff;
+    background: var(--color-white);
     width: 18px;
     height: 12px;
     top: 20px;
@@ -59,9 +59,9 @@
     padding: 15px 0px 18px 40px;
     font-size: 16px;
     font-weight: 700;
-    color: #8F8F8F;
+    color: var(--color-grey-txt);
     line-height: 130%;
-    background-color: #EFEFEF;
+    background-color: var(--color-grey-bg);
     border-radius: 30px;
     border: none;
     display: block;
@@ -70,7 +70,7 @@
 
 .header__btn-search {
     padding: 27px 50px 27px 51px;
-    background-color: #3670C7;
+    background-color: var(--color-bg-button);
     background-image: url('../icons/search.svg');
     background-repeat: no-repeat;
     background-position: center;
@@ -83,7 +83,7 @@
 .header__btn-text {
     font-size: 16px;
     font-weight: 700;
-    color: #2D2D2D;
+    color: var(--color-black-txt);
 }
 
 .header__list {

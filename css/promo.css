@@ -122,7 +122,7 @@
     font-size: 40px;
     font-weight: 400;
     line-height: 120%;
-    color: #fff;
+    color: var(--color-white);
     padding: 26px 24px;
     max-width: 500px;
     position: relative;
@@ -132,7 +132,7 @@
 .promo__text-one {
     font-size: 30px;
     line-height: 130%;
-    color: #fff;
+    color: var(--color-white);
     white-space: pre-line;
     z-index: 4;
 }
@@ -146,7 +146,7 @@
 .promo__text-two {
     font-size: 30px;
     line-height: 130%;
-    color: #fff;
+    color: var(--color-white);
     font-weight: 700;
     z-index: 5;
 }
@@ -169,7 +169,7 @@
 .sale-card {
     font-size: 30px;
     font-weight: 700;
-    color: #fff;
+    color: var(--color-white);
     line-height: 130%;
     padding: 24px 9px 25px 8px;
     position: relative;
@@ -183,7 +183,7 @@
     border-radius: 50px;
     bottom: 0;
     right: 0;
-    background-color: #FFBD13;
+    background-color: var(--color-orange-bg);
     position: absolute;
     z-index: -1;
 }
@@ -193,7 +193,7 @@
     bottom: 20px;
     right: 20px;
     left: 20px;
-    background-color: #38C0EB;
+    background-color: var(--color-blue-bg);
     border-radius: 20px;
     z-index: 3;
 }
@@ -224,7 +224,7 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 125%;
-    color: #F91155;
+    color: var(--color-red-txt);
     padding: 32px 41px 32px 42px;
     text-transform: uppercase;
 }
@@ -233,7 +233,7 @@
     position: absolute;
     bottom: 50px;
     left: 50px;
-    background-color: #fff;
+    background-color: var(--color-white);
     border-radius: 20px;
     z-index: 3;
 }
@@ -241,7 +241,7 @@
 .promo__text-bold-nine {
     font-size: 30px;
     line-height: 130%;
-    color: #fff;
+    color: var(--color-white);
     font-weight: 700;
     z-index: 5;
 }
@@ -314,6 +314,26 @@
 
     .promo__box::after {
         border-radius: 16px;
+    }
+
+    .promo__item-one {
+        padding: 20px 18px 25px 9px;
+    }
+
+    .promo__item-two {
+        padding: 58px 31px 20px 9px;
+    }
+
+    .promo__item-five {
+        padding: 20px 20px 27px 20px;
+    }
+
+    .promo__item-six {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .promo__item-nine {
+        padding: 14px 14px;
     }
 
 .promo__box:nth-child(3) {
@@ -392,7 +412,7 @@
 .sale-card {
     font-size: 30px;
     font-weight: 700;
-    color: #fff;
+    color: var(--color-white);
     line-height: 130%;
     padding: 24px 9px 25px 8px;
     position: relative;
@@ -406,7 +426,7 @@
     border-radius: 50px;
     bottom: 0;
     right: 0;
-    background-color: #FFBD13;
+    background-color: var(--color-orange-bg);
     position: absolute;
     z-index: -1;
 }
@@ -416,7 +436,7 @@
     bottom: 22px;
     right: 22px;
     left: 22px;
-    background-color: #38C0EB;
+    background-color: var(--color-blue-bg);
     border-radius: 20px;
     z-index: 3;
 }
@@ -428,6 +448,8 @@
 
 .promo__text-five {
     font-size: 30px;
+    line-height: 130%;
+    max-width: 251px;
 }
 
 .promo__text-six {
@@ -472,7 +494,7 @@
     }
 
     .promo__item-one {
-        padding: 10px 4px 15px 10px;
+        padding: 10px 4px 18px 10px;
     }
 
     .promo__item-two {
@@ -488,7 +510,7 @@
     }
 
     .promo__item-five {
-        padding: 20px 20px;
+        padding: 18px 20px;
     }
 
     .promo__item-six {
@@ -500,7 +522,7 @@
     }
 
     .promo__item-nine {
-        padding: 88px 14px 14px 14px;
+        padding: 14px 14px 12px 14px;
     }
 
     .promo__box:nth-child(3) {
@@ -590,7 +612,7 @@
         border-radius: 50px;
         bottom: 0;
         right: 0;
-        background-color: #FFBD13;
+        background-color: var(--color-orange-bg);
         position: absolute;
         z-index: -1;
     }
@@ -600,7 +622,7 @@
         bottom: 10px;
         right: 10px;
         left: 10px;
-        background-color: #38C0EB;
+        background-color: var(--color-blue-bg);
         border-radius: 12px;
         z-index: 3;
     }
