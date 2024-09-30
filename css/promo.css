@@ -15,6 +15,12 @@
     display: flex;
 }
 
+.promo__link {
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+}
+
 .promo__item-one {
     align-items: end;
     padding: 20px 20px;

@@ -20,30 +20,42 @@
             </a>
             <button class="header__btn-hamb" type="button">Меню</button>
             <div class="header__wrapper">
-                <form class="header__search">
+                <form class="header__search" action="https://jsonplaceholder.typicode.com/posts" method="post">
                     <input class="header__input-search" type="search" placeholder="Я ищу...">
                     <button class="header__btn-search" type="submit"></button>
                 </form>
             </div>
             <ul class="header__list">
                 <li class="header__item login">
-                    <button class="header__btn-icon" type="button">
-                        <img src="icons/Profile.svg" alt="иконка профиля" class="header__img-item">
+                    <a href="#" class="header__btn-icon">
+                        <svg class="header__img-item" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_9460_20)">
+                            <path d="M18 18C21.315 18 24 15.315 24 12C24 8.685 21.315 6 18 6C14.685 6 12 8.685 12 12C12 15.315 14.685 18 18 18ZM18 21C13.995 21 6 23.01 6 27V30H30V27C30 23.01 22.005 21 18 21Z" fill="#2D2D2D"/>
+                            </g>
+                            </svg>                        
                         <span class="header__btn-text">Профиль</span>
-                    </button>
+                    </a>
                 </li>
                 <li class="header__item cart">
-                    <button class="header__btn-icon" type="button">
-                        <img src="icons/Cart.svg" alt="иконка корзины" class="header__img-item">
+                    <a href="#" class="header__btn-icon">
+                        <svg class="header__img-item" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_9460_25)">
+                            <path d="M10.5 27C8.85 27 7.515 28.35 7.515 30C7.515 31.65 8.85 33 10.5 33C12.15 33 13.5 31.65 13.5 30C13.5 28.35 12.15 27 10.5 27ZM1.5 3V6H4.5L9.9 17.385L7.875 21.06C7.635 21.48 7.5 21.975 7.5 22.5C7.5 24.15 8.85 25.5 10.5 25.5H28.5V22.5H11.13C10.92 22.5 10.755 22.335 10.755 22.125L10.8 21.945L12.15 19.5H23.325C24.45 19.5 25.44 18.885 25.95 17.955L31.32 8.22C31.44 8.01 31.5 7.755 31.5 7.5C31.5 6.675 30.825 6 30 6H7.815L6.405 3H1.5ZM25.5 27C23.85 27 22.515 28.35 22.515 30C22.515 31.65 23.85 33 25.5 33C27.15 33 28.5 31.65 28.5 30C28.5 28.35 27.15 27 25.5 27Z" fill="#2D2D2D"/>
+                            </g>
+                            </svg>                            
                         <span class="header__btn-text">Корзина</span>
-                        <!-- <span class="header__btn-count">1</span> -->
-                    </button>
+                        <span class="header__btn-count">0</span>
+                    </a>
                 </li>
                 <li class="header__item favorite">
-                    <button class="header__btn-icon" type="button">
-                        <img src="icons/favorite.svg" alt="иконка избранного" class="header__img-item">
+                    <a href="#" class="header__btn-icon">
+                        <svg class="header__img-item" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_9460_33)">
+                            <path d="M18 32.025L15.825 30.045C8.1 23.04 3 18.42 3 12.75C3 8.13 6.63 4.5 11.25 4.5C13.86 4.5 16.365 5.715 18 7.635C19.635 5.715 22.14 4.5 24.75 4.5C29.37 4.5 33 8.13 33 12.75C33 18.42 27.9 23.04 20.175 30.06L18 32.025Z" fill="#2D2D2D"/>
+                            </g>
+                            </svg>                          
                         <span class="header__btn-text">Избранное</span>
-                    </button>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -83,6 +95,7 @@
                         <img class="promo__image promo__image-1" src="image/book.jpg" alt="">
                         <p class="promo__text-one"><span class="text-bold">Книга</span> -
                             лучший подарок</p>
+                        <a class="promo__link" href="#"></a>
                     </li>
                     <li class="promo__box promo__item-two">
                         <img class="promo__image promo__image-1" src="image/time.jpg" alt="картинка предложения">
@@ -90,6 +103,7 @@
                         <div class="promo__sale-card">
                             <p class="sale-card">-25%</p>
                         </div>
+                        <a class="promo__link" href="#"></a>
                     </li>
                     <li class="promo__box promo__item-three">
                         <picture>
@@ -98,6 +112,7 @@
                         <div class="promo__sale-card-1-2">
                             <p class="sale-card">-40%</p>
                         </div>
+                        <a class="promo__link" href="#"></a>
                     </li>
                     <li class="promo__box promo__item-four">
                         <picture>
@@ -108,12 +123,14 @@
                         <div class="promo__text-wrapper-four">
                             <p class="promo__text-four">Вторая пара кроссовок <span class="text-bold-56">в подарок!</span></p>
                         </div>
+                        <a class="promo__link" href="#"></a>
                     </li>
                     <li class="promo__box promo__item-five">
                         <picture>
                             <img class="promo__image promo__image-1" src="image/newyeargift1920.png" alt="картинка предложения">
                         </picture>
                         <p class="promo__text-five">Идеи новогодних подарков</p>
+                        <a class="promo__link" href="#"></a>
                     </li>
                     <li class="promo__box promo__item-six">
                         <picture>
@@ -124,6 +141,7 @@
                         <div class="promo__sale-card">
                             <p class="sale-card">-15%</p>
                         </div>
+                        <a class="promo__link" href="#"></a>
                     </li>
                     <li class="promo__box promo__item-seven">
                         <picture>
@@ -133,6 +151,7 @@
                         <div class="promo__text-wrapper-seven">
                             <p class="promo__text-seven">новогодние украшения</p>
                         </div>
+                        <a class="promo__link" href="#"></a>
                     </li>
                     <li class="promo__box promo__item-eigth">
                         <picture>
@@ -142,6 +161,7 @@
                         <div class="promo__sale-card promo__sale-card_type_position">
                             <p class="sale-card">-55%</p>
                         </div>
+                        <a class="promo__link" href="#"></a>
                     </li>
                     <li class="promo__box promo__item-nine">
                         <picture>
@@ -152,12 +172,14 @@
                             <p class="sale-card">-25%</p>
                         </div>
                         <p class="promo__text-bold-nine">На бытовую химию</p>
+                        <a class="promo__link" href="#"></a>
                     </li>
                     <li class="promo__box promo__item-ten">
                         <picture>
                             <source srcset="image/decor768.jpg" media="(width: 768px)">
                             <img class="promo__image promo__image-10" src="image/decor1920.jpg" alt="картинка предложения">
                         </picture>
+                        <a class="promo__link" href="#"></a>
                     </li>
                 </ul>
             </div>           

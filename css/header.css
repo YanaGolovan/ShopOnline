@@ -69,15 +69,15 @@
 }
 
 .header__btn-search {
-    padding: 27px 50px 27px 51px;
+    padding: 24px 49px 24.6px 51px;
     background-color: var(--color-bg-button);
     background-image: url('../icons/search.svg');
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 30px;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 2px;
+    right: 2px;
 }
 
 .header__btn-text {
@@ -87,38 +87,32 @@
 }
 
 .header__list {
-    display: grid;
-    grid-template-columns: 69px 63px 82px;
+    display: flex;
     gap: 70px;
     grid-area: icons;
-    grid-template-areas: "login cart fav";
-}
-
-.header__item {
-    display: grid;
-    grid-template-rows: auto;
 }
 
 .header__img-item {
     margin-bottom: 4px;
 }
 
-.login {
-    grid-area: login;
-}
-
-.cart {
-    grid-area: cart;
-}
-
-.favotite {
-    grid-area: fav;
-}
-
 .header__btn-icon {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+}
+
+.header__btn-count {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color-bg-button);
+    background-color: var(--color-white);
+    border-radius: 100%;
+    position: absolute;
+    top: -2px;
+    right: 14px;
+    padding: 0px 5px;
 }
 
 .header__container {
@@ -215,10 +209,10 @@
     }
 
     .header__btn-search {
-        padding: 21px 41px 20px 42px;
+        padding: 18px 41px 18px 42px;
         max-width: 30px;
         max-height: 30px;
-        background-size: 21px 21px;
+        background-size: 18px 18px;
     }
 
     .header__btn-hamb {  
@@ -235,7 +229,12 @@
 
     .header__list {
         gap: 30px;
-        grid-template-columns: 52px 47px 62px;
+    }
+
+    .header__btn-count {
+        top: -2px;
+        right: 5px;
+        padding: 0px 5px;
     }
 }
 
@@ -285,7 +284,7 @@
     }
 
     .header__btn-search {
-        padding: 15px 25px;
+        padding: 13px 25px;
         background-size: 15px 15px;
     }
 
@@ -306,8 +305,11 @@
 
     .header__list {
         gap: 20px;
-        grid-template-columns: 30px 30px 30px;
-        grid-column: 2/3;
-        grid-row: 2/3;
+    }
+
+    .header__btn-count {
+        top: -4px;
+        right: 0;
+        padding: 0px 5px;
     }
 }
