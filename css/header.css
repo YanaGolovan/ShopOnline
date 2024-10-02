@@ -193,14 +193,18 @@
     .header__container {
         display: grid;
         grid-template-columns: 
-        160px minmax(280px, 540px);
+        160px 5px minmax(280px, 540px);
         grid-template-rows: 44px 42px;
         align-items: center;
         justify-items: stretch;
         grid-template-areas:
-        "logo icons"
-        "button search"; 
+        "logo logo icons"
+        "button . search"; 
         row-gap: 29px;
+    }
+
+    .header__wrapper {
+        grid-column: 2/4;
     }
 
     .header__input-search {
@@ -273,9 +277,13 @@
     }
 
     .header__wrapper {
-        grid-column: 1/3;
+        grid-column: 1/4;
         grid-row: 3/4;
         display: block;
+    }
+
+    .header__list {
+        grid-row: 2/3;
     }
 
     .header__input-search {
